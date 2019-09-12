@@ -7,6 +7,6 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
 
 Primer Trimestre
 * Unidad 1
-  * [Primera Actividad](./PrimerTrimestre/U1_A1/README.md)
+  * [Primera Actividad](./Unidad1/Actividad1-Nombre.md)
 * Unidad 2
-  * [Primera Actividad](./PrimerTrimestre/U1_A1/.md)
+  * [Primera Actividad](./Unidad2/Actividad1-Nombre.md)
