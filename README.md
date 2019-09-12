@@ -1,7 +1,7 @@
 
-# Administración de Base de Datos
+# Administración de Sitemas Informáticos en Red
 
 ---
 
-Hola bebe
-# basedatos1920-jorgesuarez
+Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en el Grado Superior de Administración de Sistemas Informáticos en Red. Concretamente en el Segundo Nivel.
+# asir1920-jorgesuarez
