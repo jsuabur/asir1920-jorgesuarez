@@ -1,5 +1,5 @@
 
-# Administración de Sitemas Informáticos en Red
+# Administración de Sistemas Informáticos en Red
 
 ---
 
