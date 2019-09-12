@@ -9,4 +9,4 @@ Primer Trimestre
 * Administración de Base de Datos
   * [Primera Actividad](./BaseDatos/Unidad1/Actividad1-Nombre.md)
 * Unidad 2
-  * [Primera Actividad](./Unidad2/Actividad1-Nombre.md)
+  * [Primera Actividad](./BaseDatos/Unidad2/Actividad1-Nombre.md)
