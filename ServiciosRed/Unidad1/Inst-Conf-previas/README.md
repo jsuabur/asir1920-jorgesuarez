@@ -21,6 +21,8 @@ Ahora que está instalada correctamente, configuramos la IP estática y comproba
 
 ![IP estática](./images/ip-ubuntu-cliente.png)
 
+![Comprobación Ubuntu16](./images/comp-u16.png)
+
 > ¡OJO!: Poner la red en adaptador puente.
 
 ---
