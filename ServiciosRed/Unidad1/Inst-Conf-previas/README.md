@@ -7,17 +7,21 @@
 
 ### 1.1. Instalación
 
-Para comenzar, empezamos con Ubuntu 16.
+Empezamos instalando Ubuntu 16.
 
 ![Primeros pasos](./images/inicio.png)
 
-Ponemos la configuración predeterminada e instalamos.
+Ponemos la configuración predeterminada y seguimos con la instalación.
 
 ![Instalando](./images/instalacion.png)
 
 ### 1.2. Funcionamiento
 
+Ahora que está instalada correctamente, configuramos la IP estática y comprobamos.
 
+![IP estática](./images/ip-ubuntu-cliente.png)
+
+> ¡OJO!: Poner la red en adaptador puente.
 
 ---
 
@@ -27,15 +31,21 @@ Ponemos la configuración predeterminada e instalamos.
 
 
 
+![](./images/.png)
+
 ### 2.2. Funcionamiento
 
 
+
+![](./images/.png)
 
 ---
 
 ## 3. Windows 7
 
 
+
+![](./images/.png)
 
 ---
 
