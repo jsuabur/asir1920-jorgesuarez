@@ -21,29 +21,29 @@ Planificar un backup completo del directorio de datos (Documentos) del usuario q
 
 ### 2.2.
 
-
+Realizar un backup completo de un directorio creado en el escritorio del usuario, que tenga por nombre Privado. Debe realizarse esta tarea de forma que se realice, de forma automática, tres veces seguidas con una diferencia de dos minutos entre las tres (realizar cambios en los ficheros durante esos dos minutos para comprobar los efectos sobre el resultado del backup).
 
 ![](./images/.png)
 
 ### 2.3.
 
-
+Realizar un backup incremental de un directorio creado en el escritorio del usuario, que tenga por nombre Privado. Debe realizarse esta tarea de forma que se realice, de forma automática, tres veces seguidas con una diferencia de dos minutos entre las tres (realizar cambios en los ficheros durante esos dos minutos para comprobar los efectos sobre el resultado del backup).
 
 ![](./images/.png)
 
 ### 2.4.
 
+Realizar un backup diferencial de un directorio creado en el escritorio del usuario, que tenga por nombre Privado. Debe realizarse esta tarea de forma que se realice, de forma automática, tres veces seguidas con una diferencia de dos minutos entre las tres (realizar cambios en los ficheros durante esos dos minutos para comprobar los efectos sobre el resultado del backup).
+
+![](./images/.png)
+
+### 2.5. Comparación
+
 
 
 ![](./images/.png)
 
-### 2.5.
-
-
-
-![](./images/.png)
-
-### 2.6.
+### 2.6. Metodos de recuperación para incremental y diferencial
 
 
 
