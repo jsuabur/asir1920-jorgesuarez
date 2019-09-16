@@ -47,9 +47,9 @@ Ahora configuramos la IP estática.
 
 ## 3. Windows 7
 
+Instalamos Windows7 con la configuración predeterminada y ponemos la IP estática.
 
-
-![](./images/.png)
+![IP Windows](./images/ip-windows7.png)
 
 ---
 
