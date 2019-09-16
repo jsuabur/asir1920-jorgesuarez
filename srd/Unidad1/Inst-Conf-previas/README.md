@@ -41,7 +41,7 @@ Ahora configuramos la IP estática.
 
 ![IP estatica Ubuntu Server](./images/ip-ubuntu-server.png)
 
-![Comprobación Ubuntu Server](./images/comp-ubuntu-serve.png)
+![Comprobación Ubuntu Server](./images/comp-u16-server.png)
 
 ---
 
