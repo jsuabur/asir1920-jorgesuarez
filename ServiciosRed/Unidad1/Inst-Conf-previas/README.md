@@ -7,7 +7,13 @@
 
 ### 1.1. Instalación
 
+Para comenzar, empezamos con Ubuntu 16.
 
+![Primeros pasos](./images/inicio.png)
+
+Ponemos la configuración predeterminada e instalamos.
+
+![Instalando](./images/instalacion.png)
 
 ### 1.2. Funcionamiento
 
