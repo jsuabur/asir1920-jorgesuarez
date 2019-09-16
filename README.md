@@ -6,7 +6,8 @@
 Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en el Grado Superior de Administración de Sistemas Informáticos en Red.
 
 * **Servicios de Red e Internet**
-  * [Primera Actividad](./ServiciosRed/Unidad1/Actividad1-Nombre.md)
+  * T1 - Repaso e Instalaciones Previas
+    * [Instalaciones y configuraciones previas](./ServiciosRed/Unidad1/Inst-Conf-previas/README.md)
 * **Seguridad y alta disponibilidad**
   * [Primera Actividad](./Seguridad/Unidad1/Actividad1-Nombre.md)
 * **Empresa e iniciativa emprendedora**
@@ -20,7 +21,7 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
   * T6 - Lenguaje de Guiones
   * T7 - Administración de Procesos
 * **Implantación de Aplicaciones Web**
-  * T1 - Repaso e Instalaciones Previas
+  * T1 -
   * T2 -
 * **Administración de Sistemas Gestores de Base de Datos**
   * [Primera Actividad](./BaseDatos/Unidad1/Actividad1-Nombre.md)
