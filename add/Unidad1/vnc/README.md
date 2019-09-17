@@ -9,11 +9,10 @@
 >   * Acceder a GNU/Linux OpenSUSE - desde GNU/Linux OpenSUSE (A lo mejor no hay que instalar el software cliente VNC)
 Acceder a GNU/Linux OpenSUSE - desde Windows 7/10.
 
-
 ## 1. Instalación en Windows
 
 ### 1.1. Ir al servidor VNC en Windows
- 
+
 Descargamos `TightVNC`
 
 ![TightVNC](./images/tightvnc.png)
@@ -29,8 +28,6 @@ Utilizaremos la versión `Custom` y en concreto la `TightVNC Server`. Esto es el
 ![](./images/.png)
 
 ### 1.2. Ir a la máquina GNU/Linux
-
-
 
 ![](./images/.png)
 
