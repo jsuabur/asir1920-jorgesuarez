@@ -14,7 +14,17 @@ Acceder a GNU/Linux OpenSUSE - desde Windows 7/10.
 
 ### 1.1. Ir al servidor VNC en Windows
 
+Descargamos `TightVNC`
 
+![TightVNC](./images/tightvnc.png)
+
+Utilizaremos la versión `Custom` y en concreto la `TightVNC Server`. Esto es el servicio.
+
+![TightVNC - Custom](./images/custom-tightvnc.png)
+
+![TightVNC - Server](./images/tight-server.png)
+
+> Revisamos la configuración del cortafuegos del servidor VNC Windows para permitir VNC.
 
 ![](./images/.png)
 
