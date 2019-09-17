@@ -15,8 +15,8 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
 
 * **Seguridad y alta disponibilidad**
   * T1 - Adopción de pautas de seguridad informática
-    * [SAD01](./sgy/Unidad1/sad01/README.md)
-    * [Cobian BackUP](./sgy/Unidad1/cobian-backup/README.md)
+    * [SAD01 "En proceso"](./sgy/Unidad1/sad01/README.md)
+    * [Cobian BackUP "En proceso"](./sgy/Unidad1/cobian-backup/README.md)
   * T2 -
     * ["En proceso"](./sgy/Unidad2//README.md)
   * T3 -
@@ -40,7 +40,7 @@ Bienvenidos a mi glosario sobre los informes de las actividades desarrolladas en
 
 * **Administración de Sistemas Operativos**
   * T1 - Acceso Remoto
-    * ["En proceso"](./add/Unidad1//README.md)
+    * [A1 - Acceso remoto VNC "En proceso"](./add/Unidad1/vnc/README.md)
   * T2 - Integración de Sistemas
     * ["En proceso"](./add/Unidad2//README.md)
   * T3 - Servicio de Directorio
