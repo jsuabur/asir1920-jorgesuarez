@@ -44,9 +44,13 @@ Usaremos `TightVNC Viewer`. Esto es el cliente VNC.
 
 ### 1.4. Comprobaciones finales
 
+Probamos desde el `VNC Server` la conexión con el `VNC Cliente`
 
+![Prueba de conexión VNC](./images/tightvnc-server-cliente.png)
 
-![](./images/.png)
+Para verificar que se han establecido las conexiones remotas, vamos al servidor VNC y usamos el comando `netstat -n` para ver las conexiones VNC con el cliente
+
+![Comprobar](./images/comp-vnc-cs.png)
 
 ---
 
