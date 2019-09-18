@@ -3,11 +3,13 @@
 
 ---
 
+## Introducción VNC
+
 > * Vamos a realizar las siguientes conexiones remotas VNC:
->   * Acceder a Windows - desde Windows 7/10.
+>   * Acceder a Windows - desde Windows 7.
 >   * Acceder a Windows - desde GNU/Linux OpenSUSE.
->   * Acceder a GNU/Linux OpenSUSE - desde GNU/Linux OpenSUSE (A lo mejor no hay que instalar el software cliente VNC)
-Acceder a GNU/Linux OpenSUSE - desde Windows 7/10.
+>   * Acceder a GNU/Linux OpenSUSE - desde GNU/Linux OpenSUSE
+Acceder a GNU/Linux OpenSUSE - desde Windows 7.
 
 | MV | OS       | IP           | Rol        | Detalles              |
 | :-: | :-------: | ------------ | ---------- | --------------------- |
@@ -18,9 +20,9 @@ Acceder a GNU/Linux OpenSUSE - desde Windows 7/10.
 
 ---
 
-## 1. Instalación en Windows
+## 1. Windows: Slave VNC
 
-### 1.1. Ir al servidor VNC en Windows
+### 1.1. VNC Server
 
 Descargamos `TightVNC`
 
@@ -34,14 +36,18 @@ Utilizaremos la versión `Custom` y en concreto la `TightVNC Server`. Esto es el
 
 > Revisamos la configuración del cortafuegos del servidor VNC Windows para permitir VNC.
 
-### 1.2. Ir a la máquina GNU/Linux
+### 1.2. Ir a la máquina GNU/Linux (Real)
 
 * Ejecutamos `nmap -Pn 172.19.15.11` (esta sería mi IP del VNC Server), desde la máquina real GNU/Linux para comprobar que los servicios son visibles desde fuera de la máquina VNC-SERVER.
 *Deben verse los puertos 580X, 590X, etc.*
 
 ![Puertos VNC](./images/vnc-comp-mr.png)
 
-### 1.3. Ir al cliente Windows
+---
+
+## 2. Windows: Master VNC
+
+### 2.1. VNC Viewer
 
 En el cliente Windows instalaremos `TightVNC`.
 
@@ -51,9 +57,9 @@ Usaremos `TightVNC Viewer`. Esto es el cliente VNC.
 
 ![TightVNC Viewer W2](./images/tight-viewer-w2.png)
 
-### 1.4. Comprobaciones finales
+### 2.2. Comprobaciones finales
 
-Probamos desde el `VNC Server` la conexión con el `VNC Cliente`.
+Probamos desde el `VNC Cliente` la conexión con el `VNC Server`.
 
 ![Prueba de conexión VNC](./images/tightvnc-server-cliente.png)
 
@@ -63,27 +69,14 @@ Para verificar que se han establecido las conexiones remotas, vamos al servidor 
 
 ---
 
-## 2. Instalación en OpenSUSE
+## 3. OpenSUSE: Slave VNC
 
-### 2.1. Ir al servidor VNC OpenSUSE
-
-
-
-![](./images/.png)
-
-### 2.2. Ir a la máquina GNU/linux
-
+### 3.1. VNC Server
 
 
 ![](./images/.png)
 
-### 2.3. Ir al cliente GNU/linux
-
-
-
-![](./images/.png)
-
-### 2.4. Comprobaciones finales
+### 3.2. Ir a la máquina GNU/linux
 
 
 
@@ -91,7 +84,15 @@ Para verificar que se han establecido las conexiones remotas, vamos al servidor 
 
 ---
 
-## 3. Comprobaciones con SSOO cruzados
+## 4. OpenSUSE: Master VNC
+
+### 4.1. VNC Viewer
+
+
+
+![](./images/.png)
+
+### 4.2. Comprobaciones finales
 
 
 
@@ -99,7 +100,15 @@ Para verificar que se han establecido las conexiones remotas, vamos al servidor 
 
 ---
 
-## 4. DISPLAY 0 en GNU/Linux
+## 5. Comprobaciones con SSOO cruzados
+
+
+
+![](./images/.png)
+
+---
+
+## 6. DISPLAY 0 en GNU/Linux
 
 
 
