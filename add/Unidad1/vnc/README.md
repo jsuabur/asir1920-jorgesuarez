@@ -25,11 +25,12 @@ Utilizaremos la versión `Custom` y en concreto la `TightVNC Server`. Esto es el
 
 > Revisamos la configuración del cortafuegos del servidor VNC Windows para permitir VNC.
 
-![](./images/.png)
-
 ### 1.2. Ir a la máquina GNU/Linux
 
-![](./images/.png)
+* Ejecutamos `nmap -Pn 172.19.15.11` (esta sería mi IP del VNC Server), desde la máquina real GNU/Linux para comprobar que los servicios son visibles desde fuera de la máquina VNC-SERVER.
+*Deben verse los puertos 580X, 590X, etc.*
+
+![Puertos VNC](./images/vnc-comp-mr.png)
 
 ### 1.3. Ir al cliente Windows
 
