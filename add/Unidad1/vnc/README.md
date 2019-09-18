@@ -34,9 +34,13 @@ Utilizaremos la versión `Custom` y en concreto la `TightVNC Server`. Esto es el
 
 ### 1.3. Ir al cliente Windows
 
+En el cliente Windows instalaremos `TightVNC`.
 
+![TightVNC Custom W2](./images/tight-custom-w2.png)
 
-![](./images/.png)
+Usaremos `TightVNC Viewer`. Esto es el cliente VNC.
+
+![TightVNC Viewer W2](./images/tight-viewer-w2.png)
 
 ### 1.4. Comprobaciones finales
 
