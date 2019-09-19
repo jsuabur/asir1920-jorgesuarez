@@ -31,7 +31,7 @@ Ahora que está instalada correctamente, configuramos la IP estática y comproba
 
 ### 2.1. Instalación
 
-Clonaremos Ubuntu 16 y después cambiaremos la IP para que no haya problemas de compatibilidad.
+Clonaremos Ubuntu 16 y después cambiaremos la MAC para que no haya problemas de compatibilidad.
 
 ![Clonación](./images/clonacion.png)
 
@@ -54,6 +54,20 @@ Instalamos Windows7 con la configuración predeterminada y ponemos la IP estáti
 ---
 
 ## 4. Windows 2016 Server
+
+### 4.1. Instalación
+
+Ahora instalaremos Windows Server 2016 Standard. 
+
+![Instalación Windows Server 2016](./images/inst-ws2016.png)
+
+### 4.2. IP estática
+
+
+
+![](./images/.png)
+
+### 4.3. Active Directory
 
 
 
