@@ -57,7 +57,7 @@ Instalamos Windows7 con la configuración predeterminada y ponemos la IP estáti
 
 ### 4.1. Instalación
 
-Ahora instalaremos Windows Server 2016 Standard. 
+Ahora instalaremos Windows Server 2016 Standard.
 
 ![Instalación Windows Server 2016](./images/inst-ws2016.png)
 
