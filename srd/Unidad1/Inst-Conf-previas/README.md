@@ -86,26 +86,49 @@ Una vez completada la instalación, marcamos `Promover Windows 2016 a Controlado
 
 ![Nive funcional del bosque](./images/nivel-funcional.png)
 
-**Grupos del dominio**
+* Ahora se nos ha activado una opción en herramientas llamada `Usuarios y equipos de Active Directory` en la que haremos las siguientes configuraciones.
 
-
-
-![](./images/.png)
-
-**Usuarios del dominio**
-
-
-
-![](./images/.png)
+![Usuarios y equipos de Active Directory](./images/usuarios-equipos.png)
 
 **Unidades Organizativas**
 
+Crearemos una UO, para ello hacemos click derecho en el dominio creado -> `Nuevo` -> `Unidad Organizativa` y ponemos el nombre deseado.
 
+![Unidad Organizativa](./images/uo.png)
 
-![](./images/.png)
+**Grupos del dominio**
 
-**Enlazar Windows7 (Cliente) al dominio**
+Ahora crearemos dos grupos dentro de la UO.
+* Click derecho en la UO -> `Nuevo` -> `Grupo`
 
+![Programación](./images/grupo1.png)
 
+**Usuarios del dominio**
 
-![](./images/.png)
+Ahora creamos varios usuarios y los incluiremos en los grupos creados anteriormente, yo lo crearé así:
+
+Usuario  |     Grupo        |
+:------: | :--------------: |
+ruby     | programacion     |
+python   | programacion     |
+tecnico1 | servicio-tecnico |
+tecnico2 | servicio-tecnico |
+
+![Crear usuario ruby](./images/u1.png)
+
+![Grupo programacion](./images/programacion-usuarios.png)
+
+### 4.4. Enlazar Windows7 al dominio
+
+Ahora utilizaremos el Windows7 y entraremos en el dominio con uno de los usuarios creados.
+
+* Para ello entramos en nuestro usuario y en `Propiedades de Equipo` pulsamos en `Cambiar Ajustes` y ponemos el nombre del dominio y entramos con uno de los usuarios creados.
+
+![Unido correctamente](./images/dominio-unido.png)
+
+Para finalizar, reiniciamos y comprobamos que podemos entrar perfectamente on un usuario del dominio.
+
+![](./images/usuario-dominio-w7.png)
+
+> ¡OJO!: Para entrar con usuario de dominio poner nombe del dominio, barra y luego nombe de usuario. Ejm:
+`nombre-dominio\usuario-dominio`
