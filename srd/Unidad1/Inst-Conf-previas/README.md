@@ -73,6 +73,18 @@ Utilizaremos Active Directory para la creación de grupos, usuarios del dominio 
 
 ![Active Directory](./images/active-directory.png)
 
+**Creación del Dominio**
+Entramos en `Agregar Roles y/o características` y agregamos `Servicios de Active Directory`.
+Una vez completada la instalación, marcamos `Promover Windows 2016 a Controlador de Dominio`.
+
+* Para empezar crearemos el dominio, así que utilizaremos la opción `Agregar un nuevo bosque` con el nombre del dominio.
+
+![Nuevo bosque](./images/nuevo-bosque.png)
+
+* El siguiente paso, es seleccionar el nivel funcional del bosque y una contraseña de *modo de restauración de servicios de directorio (DSRM)*
+
+![Nive funcional del bosque](./images/nivel-funcional.png)
+
 **Grupos del dominio**
 
 
