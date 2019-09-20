@@ -130,5 +130,7 @@ Para finalizar, reiniciamos y comprobamos que podemos entrar perfectamente con u
 
 ![](./images/usuario-dominio-w7.png)
 
-> ¡OJO!: Para entrar con usuario de dominio poner nombe del dominio, barra y luego nombe de usuario. Ejm:
-`nombre-dominio\usuario-dominio`
+> ¡OJO!: Para entrar con usuario de dominio poner nombe del dominio, barra y luego nombe de usuario.
+Ejm:
+>
+> `nombre-dominio\usuario-dominio`
