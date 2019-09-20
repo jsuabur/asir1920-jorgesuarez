@@ -63,11 +63,35 @@ Ahora instalaremos Windows Server 2016 Standard.
 
 ### 4.2. IP estática
 
+Configuramos la IP estática del server y comprobamos si está todo hecho correctamente.
+
+![IP estática Windows Server 2016](./images/ip-windows2016.png)
+
+### 4.3. Active Directory
+
+Utilizaremos Active Directory para la creación de grupos, usuarios del dominio y unidades organizativas.
+
+![Active Directory](./images/active-directory.png)
+
+**Grupos del dominio**
+
 
 
 ![](./images/.png)
 
-### 4.3. Active Directory
+**Usuarios del dominio**
+
+
+
+![](./images/.png)
+
+**Unidades Organizativas**
+
+
+
+![](./images/.png)
+
+**Enlazar Windows7 (Cliente) al dominio**
 
 
 
