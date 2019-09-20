@@ -126,7 +126,7 @@ Ahora utilizaremos el Windows7 y entraremos en el dominio con uno de los usuario
 
 ![Unido correctamente](./images/dominio-unido.png)
 
-Para finalizar, reiniciamos y comprobamos que podemos entrar perfectamente on un usuario del dominio.
+Para finalizar, reiniciamos y comprobamos que podemos entrar perfectamente con un usuario del dominio.
 
 ![](./images/usuario-dominio-w7.png)
 
