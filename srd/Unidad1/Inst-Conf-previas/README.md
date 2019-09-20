@@ -74,6 +74,7 @@ Utilizaremos Active Directory para la creación de grupos, usuarios del dominio 
 ![Active Directory](./images/active-directory.png)
 
 **Creación del Dominio**
+
 Entramos en `Agregar Roles y/o características` y agregamos `Servicios de Active Directory`.
 Una vez completada la instalación, marcamos `Promover Windows 2016 a Controlador de Dominio`.
 
