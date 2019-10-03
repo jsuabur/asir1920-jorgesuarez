@@ -61,17 +61,18 @@ Usaremos `TightVNC Viewer`. Esto es el cliente VNC.
 
 Probamos desde el `VNC Cliente` la conexión con el `VNC Server`.
 
-![Prueba de conexión VNC](./images/tightvnc-server-cliente.png)
+![Tight VNC en directo](./images/tight-directo.png)
 
 Para verificar que se han establecido las conexiones remotas, vamos al servidor VNC y usamos el comando `netstat -n` para ver las conexiones VNC con el cliente.
 
-![Comprobar](./images/comp-vnc-cs.png)
+![Comprobar con netstat](./images/tightvnc-server-cliente.png)
 
 ---
 
 ## 3. OpenSUSE: Slave VNC
 
 ### 3.1. VNC Server
+
 
 
 ![](./images/.png)
