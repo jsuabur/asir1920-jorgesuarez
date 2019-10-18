@@ -3,55 +3,49 @@
 
 ---
 
-## 1. Instalación
+## 1. Configuración
+
+Vamos a crear un servidor DNS en una máquina con Windows Server 2016.
+
+![Imagen presentación](./images/2016-dns.jpg)
+
+### 1.1. Zona de búsqueda directa
 
 
 
 ![](./images/.png)
 
-## 2. Configuración
+### 1.2. Zona de búsqueda inversa (subred)
 
 
 
 ![](./images/.png)
 
-### 2.1. Zona de búsqueda directa
+### 1.3. Configurar reenviadores de DNS
 
 
 
 ![](./images/.png)
 
-### 2.2. Zona de búsqueda inversa (subred)
+## 2. Configurar el servidor para Servidor DNS Caché
 
 
 
 ![](./images/.png)
 
-### 2.3. Confgurar reenviadores de DNS
+## 3. Configurar servidor como DNS Maestro
 
 
 
 ![](./images/.png)
 
-## 3. Configurar el servidor para sr servidor DNS Caché
+## 4. Comprobación en el Servidor
 
 
 
 ![](./images/.png)
 
-## 4. Configurar servidor como DNS Maestro
-
-
-
-![](./images/.png)
-
-## 5. Comprobación en el Servidor
-
-
-
-![](./images/.png)
-
-## 6. Comprobación en el cliente
+## 5. Comprobación en el cliente
 
 
 
