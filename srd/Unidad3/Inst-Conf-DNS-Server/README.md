@@ -74,11 +74,27 @@ Tras agregar una nueva `Zona de búsqueda directa`, añadimos una nueva `Zona de
 
 ![](./images/.png)
 
-## 4. Comprobación en el Servidor
+## 4. Configuramos registros
 
+En la zona de búsqueda directa,configuraremos los siguientes registros:
 
+* Server
 
-![](./images/.png)
+![](./images/nuevo-alias.png)
+
+* Impresora
+
+![](./images/printer.png)
+
+* Correo
+
+![](./images/correo-directa.png)
+
+* Una subzona llamada `servicios`.
+
+![](./images/subzona.png)
+
+![](./images/servicios-subzona.png)
 
 ## 5. Comprobación en el cliente
 
