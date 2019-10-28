@@ -22,6 +22,8 @@ cd /etc/bind/
 
 ![](./images/install-bind.png)
 
+---
+
 ### Configurando el dominio
 
 Editamos `named.conf.local` y añadimos la zona *suarez.homeip.net*, haciendo referencia a su fichero de configuración.
@@ -44,6 +46,8 @@ Ahora reiniciamos el demonio `bind9` y comprobamos el correcto funcionamiento ui
 
 ![](./images/restart-host.png)
 
+---
+
 ## Resolución de dominios inversa
 
 Para disponer de resolución de dominios inversa, debemos añadir a `/etc/bind/named.conf.local`, lo siguiente:
@@ -55,4 +59,19 @@ file "/etc/bind/db.192"
 }
 ~~~
 
-![](./images/.png)
+![](./images/zona-inversa.png)
+
+Tras añadirlo en el fichero `/etc/bind/named.conf.local`, creamos el archivo de configuración `/etc/bind/db.192` a partir de la copia del fichero `/etc/bind/db.127`.
+
+~~~bash
+cd /etc/bind
+sudo cp db.127 db.192
+~~~
+
+Editamos y configuramos el fichero creado sustituyendo *localhost* por nuestro dominio (**suarez.homeip.net**):
+
+![](./images/db-192.png)
+
+Ahora reiniciamos el *demonio **BIND9**,* y comprobamos la resolución de dominios inversa con el comando host y la IP del dominio.
+
+![](./images/host-inversa.png)
