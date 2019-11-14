@@ -63,18 +63,37 @@ Para configurarlo, vamos a la `DNS` dentro de `Herramientas`.
 
 ### 1.3. Creación de Sitios Web
 
+Para la creación de sitios web tenemos que crear un `index.html` en la carpeta `C\inetpub\wwwroot` y dentro de él lo configuramos para la creación y maquetación de la web. Aparte crearemos varas subcarpetas para la creación de un pequeño sitio web con varias páginas e imágenes.
 
+![](./images/carpetas-web.png)
 
-![](./images/.png)
+Comprobamos en el cliente Windows7 que funciona correctamente.
+
+![](./images/comp-carpetas-web.png)
+
+![](./images/comp-calen.png)
+
 ---
 
-## 2.
+## 2. Creación de Sitios Web Independientes
 
-### 2.1.
+### 2.1. Crear un nuevo Sitio Web
 
 
 
 ### 2.2.
+
+
+
+---
+
+## 3. Creación de Directorios Virtuales
+
+### 3.1.
+
+
+
+### 3.2.
 
 
 
