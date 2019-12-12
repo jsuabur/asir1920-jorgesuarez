@@ -79,22 +79,24 @@ Comprobamos en el cliente Windows7 que funciona correctamente.
 
 ### 2.1. Crear un nuevo Sitio Web
 
+Ahora crearemos un nuevo `Sitio Web`, llamado **srd.edu** y añadimos una nueva entrada en nuestro servidor DNS de tipo ALIAS, para que la resolución `www` apunte a `servidor.srd.edu` de modo que para acceder a nuestro servidor web pueda utilizarse la resolución `www.srd.edu`.
 
+![](./images/srd-alias.png)
 
-### 2.2.
+La nueva entrada aparecerá como un alias en nuestro servidor DNS.
 
+![](./images/srd-carpeta.png)
 
+Ahora crearemos otro correspondiente a los departamentos.Todo con la misma configuración *excepto* el `Puerto TCP` que utilizaremos el **81**.
 
----
+![](./images/srd-alias-depart.png)
 
-## 3. Creación de Directorios Virtuales
+Para que el nuevo sitio web quede completamente operativo, debemosintroducir una nueva entrada tipo `Alias` para que la resolución `departamentos` apunte al host **servidor.srd.edu**.
 
-### 3.1.
+![](./images/srd-depart-cname.png)
 
+### 2.2. Comprobación
 
+Ahora comprobamos que funciona correctamente yendo a  `departamentos.srd.edu:81` en cualquier navegador.
 
-### 3.2.
-
-
-
----
+![](./images/srd-depart-comp.png)

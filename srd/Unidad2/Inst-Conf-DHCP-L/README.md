@@ -5,38 +5,32 @@
 
 ## 1. Instalación DHCP
 
+Primero instalamos el paquete `isc-dhcp-server` mediante el gestor de paquetes `apt-get`:
 
+![](./images/instalar-dhcp.png)
 
 ---
 
 ## 2. Configuración DHCP
 
+Ahora configuraremos la interface en el fichero `/etc/default/isc-dhcp-server` modificando la siguiente línea:
 
+```bash
+INTERFACES="enp0s3"
+```
 
-![](./images.png)
+![](./images/interfaces.png)
 
-### 2.1. Creación nuevo ámbito
+### 2.1. Copia de seguridad
 
+Antes de editar el fichero, haremos una copia de seguridad del mismo, para prevenir errores o problemas.
 
+![](./images/copy-dhcp-conf.png)
 
-![](./images.png)
+### 2.2. Configuración
 
-### 2.2 Configurar puerta enlace y resto de opciones
+Ahora configuraremos el fichero con las opciones correspondientes.
 
-
-
-![](./images.png)
-
-### 2.3. Reserva de direcciones
-
-
-
-![](./images.png)
-
----
-
-## 3. Comprobación
-
-
+![](./images/domain-server.png)
 
 ---
