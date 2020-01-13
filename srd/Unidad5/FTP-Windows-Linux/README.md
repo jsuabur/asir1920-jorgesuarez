@@ -7,7 +7,7 @@
 
 ---
 
-## 2. FTP - Linux
+## 2. FTP - Linux (Ubuntu)
 
 ### 2.1. Instalación
 
@@ -68,8 +68,8 @@ usu-ftp2  | /home/usu-ftp2/file-download-2.txt  |
 
 **usu-ftp1**
 
-![](./images/linux-12-usu-ftp1-download.png)
+![](./images/linux-11-usu-ftp1-download.png)
 
 **usu-ftp2**
 
-![](./images/linux-13-usu-ftp2-download.png)
+![](./images/linux-12-usu-ftp2-download.png)
