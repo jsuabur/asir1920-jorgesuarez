@@ -46,7 +46,7 @@ Comenzaremos conectándonos desde el cliente con los usuarios anteriores.
 
 ![](./images/linux-9-usu-ftp2-ssh.png)
 
-Intentaremos ejecutar una aplicación gráfica del **servidor** de forma remota desde el **cliente** mediante `ssh`.
+Ejecutaremos una aplicación gráfica del **servidor** de forma remota desde el **cliente** mediante `ssh`.
 
 > En mi caso ejecutaré *geany*, si lo quisieran utilizar también este programa habría que instalarlo ya que no viene predeterminado en el sistema.
 > Para instalarlo por comandos, utilizaremos **sudo apt install geany**.
@@ -65,3 +65,11 @@ Usuario   | Fichero                             |
 :-------: | :---------------------------------: |
 usu-ftp1  | /home/usu-ftp1/file-download-1.txt  |
 usu-ftp2  | /home/usu-ftp2/file-download-2.txt  |
+
+**usu-ftp1**
+
+![](./images/linux-12-usu-ftp1-download.png)
+
+**usu-ftp2**
+
+![](./images/linux-13-usu-ftp2-download.png)
