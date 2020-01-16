@@ -5,6 +5,24 @@
 
 ## 1. FTP - Windows
 
+### 2.1. Instalación
+
+Comenzaremos instalando el `servicio FTP`.
+
+![](./images/windows-1-install.png)
+
+![](./images/windows-2-servinst.png)
+
+![](./images/windows-3-typeinst.png)
+
+![](./images/windows-4-webinst.png)
+
+![](./images/windows-5-servicioftp.png)
+
+![](./images/windows-6-compinst.png)
+
+![](./images/windows-7-instalado.png)
+
 ---
 
 ## 2. FTP - Linux (Ubuntu)
