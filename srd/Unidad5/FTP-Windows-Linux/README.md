@@ -37,23 +37,17 @@ download  | SI               | Todos                     | Consultar y leer    |
 
 #### Sitio FTP -> C
 
-
-
 ![](./images/.png)
 
 **Comprobación**
 
 #### Sitio FTP -> wwwrooot
 
-
-
 ![](./images/.png)
 
 **Comprobación**
 
 #### Sitio FTP -> download
-
-
 
 ![](./images/.png)
 
