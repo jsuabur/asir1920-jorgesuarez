@@ -5,7 +5,7 @@
 
 ## 1. FTP - Windows
 
-### 2.1. Instalación
+### 1.1. Instalación
 
 Comenzaremos instalando el `servicio FTP`.
 
@@ -22,6 +22,42 @@ Comenzaremos instalando el `servicio FTP`.
 ![](./images/windows-6-compinst.png)
 
 ![](./images/windows-7-instalado.png)
+
+### 1.2. Sitios FTP
+
+![](./images/windows-8-siteftp.png)
+
+Crearemos tres sitios FTP con diferentes configuraciones:
+
+Sitio FTP | Accesos anónimos | Acceso                    | Modo de acceso      | Conexión SSL                 |
+:-------: | :--------------: | :-----------------------: | :-----------------: | :--------------------------: |
+C         | No permitidos    | Administrador             | Lectura y escritura | NO                           |
+wwwroot   | NO               | Usuarios Active Directory | Lectura y escritura | (Permitir, no requerir) SSL  |
+download  | SI               | Todos                     | Consultar y leer    |                              |
+
+#### Sitio FTP -> C
+
+
+
+![](./images/.png)
+
+**Comprobación**
+
+#### Sitio FTP -> wwwrooot
+
+
+
+![](./images/.png)
+
+**Comprobación**
+
+#### Sitio FTP -> download
+
+
+
+![](./images/.png)
+
+**Comprobación**
 
 ---
 
