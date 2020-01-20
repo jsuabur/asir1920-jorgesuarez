@@ -39,19 +39,23 @@ download  | SI               | Todos                     | Consultar y leer    |
 
 ![](./images/windows-9-c.png)
 
-![](./images/windows-9-c.png)
+![](./images/windows-10-c-sinssl.png)
 
-![](./images/windows-9-c.png)
+![](./images/windows-11-c-admin.png)
 
 **Comprobación**
 
-![](./images/windows-13-c-correcto.png)
-
 ![](./images/windows-12-c-adminclave.png)
+
+![](./images/windows-13-c-correcto.png)
 
 #### Sitio FTP -> wwwrooot
 
-![](./images/.png)
+![](./images/windows-15-wwwroot.png)
+
+![](./images/windows-16-wwwroot.png)
+
+![](./images/windows-17-wwwroot.png)
 
 **Comprobación**
 
