@@ -37,9 +37,17 @@ download  | SI               | Todos                     | Consultar y leer    |
 
 #### Sitio FTP -> C
 
-![](./images/.png)
+![](./images/windows-9-c.png)
+
+![](./images/windows-9-c.png)
+
+![](./images/windows-9-c.png)
 
 **Comprobación**
+
+![](./images/windows-13-c-correcto.png)
+
+![](./images/windows-12-c-adminclave.png)
 
 #### Sitio FTP -> wwwrooot
 
