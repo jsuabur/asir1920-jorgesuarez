@@ -35,6 +35,8 @@ C         | No permitidos    | Administrador             | Lectura y escritura |
 wwwroot   | NO               | Usuarios Active Directory | Lectura y escritura | (Permitir, no requerir) SSL  |
 download  | SI               | Todos                     | Consultar y leer    |                              |
 
+> Para ejecutar cada uno de los SitiosWebs de FTP, `Detenemos` los demás e `Iniciamos` el que queremos comprobar. Esto pasa ya que tenemos la misma IP y puerto para los tres.
+
 #### Sitio FTP -> C
 
 ![](./images/windows-9-c.png)
@@ -51,19 +53,29 @@ download  | SI               | Todos                     | Consultar y leer    |
 
 #### Sitio FTP -> wwwrooot
 
-![](./images/windows-15-wwwroot.png)
+![](./images/windows-15-wwroot.png)
 
-![](./images/windows-16-wwwroot.png)
+![](./images/windows-16-wwroot.png)
 
-![](./images/windows-17-wwwroot.png)
+![](./images/windows-17-wwroot.png)
 
 **Comprobación**
+
+![](./images/windows-18-wwroot.png)
+
+![](./images/windows-19-wwroot.png)
 
 #### Sitio FTP -> download
 
-![](./images/.png)
+![](./images/windows-20-download.png)
+
+![](./images/windows-21-download.png)
+
+![](./images/windows-22-download.png)
 
 **Comprobación**
+
+![](./images/windows-23-download.png)
 
 ---
 
