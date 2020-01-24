@@ -99,4 +99,4 @@ Después creamos un dominio tipo alias para disponer de cuentas en otro dominio.
 
 Ahora vamos a ver si se han creado correctamente las carpetas de correo en `C:\Inetpub\mailroot`:
 
-![](./images/17-mailroot.png)
+![](./images/16-mailroot.png)
