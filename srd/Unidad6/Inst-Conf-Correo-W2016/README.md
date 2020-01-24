@@ -75,4 +75,28 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 ![](./images/10-acc-anonimo.png)
 
-##
+## 3. Nuevo dominio SMTP
+
+Antes de nada, comprobamos que existe el dominio predeterminado de ActiveDirectory.
+
+![](./images/11-AD-predet.png)
+
+Después creamos un dominio tipo alias para disponer de cuentas en otro dominio.
+
+![](./images/12-dominio-new.png)
+
+**1º Paso**
+
+![](./images/13-smtp-alias.png)
+
+**2º Paso**
+
+![](./images/14-alias-suarez.png)
+
+**Comprobación**
+
+![](./images/15-creado.png)
+
+Ahora vamos a ver si se han creado correctamente las carpetas de correo en `C:\Inetpub\mailroot`:
+
+![](./images/.png)
