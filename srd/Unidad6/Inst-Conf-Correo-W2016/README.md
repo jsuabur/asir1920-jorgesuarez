@@ -36,10 +36,35 @@ Ahora configuraremos el `Servidor SMTP`, para ello vamos a `Administrador de Int
 
 ![](./images/6-iis-60.png)
 
-Ahora vamos a `Propiedades` del `SMTP` y configuramos lo siguiente:
+Ahora vamos a `Propiedades` del `SMTP` y configuramos lo siguiente en el apartado **General**:
 
 | Dirección IP | Limitar conexiones | Habilitar registro | Formato de registro activo |
 | :----------: | :----------------: | :----------------: | :------------------------: |
 | 172.19.15.21 | 50                 | SI                 |   Registro Extendido W3C   |
+
+![](./images/.png)
+
+Después, vamos al apartado **Acceso** y configuramos la autenticación anónima y el envío de mensajes dentro de nuestra red local.
+
+> Para hacer esto, aceptamos la conexión al servidor y la retransmisión de mensajes a todos los equipos menos a una IP, la que nosotros queramos, en mi caso `172.19.15.32`
+
+<table>
+  <tr>
+    <td text-size="bold">Control de conexión</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
 
 ##
