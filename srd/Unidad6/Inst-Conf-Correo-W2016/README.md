@@ -50,16 +50,19 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 <table>
   <tr>
-    <td text-size="solid">Control de conexión</td>
+    <th rowspan="1">Control de conexión</th>
+    <th>Control de acceso</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
     <td></td>
   </tr>
   <tr>
