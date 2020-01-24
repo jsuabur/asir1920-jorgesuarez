@@ -50,7 +50,7 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 <table>
   <tr>
-    <td text-size="bold">Control de conexión</td>
+    <td text-size="solid">Control de conexión</td>
     <td></td>
   </tr>
   <tr>
