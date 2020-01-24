@@ -48,7 +48,8 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 > Para hacer esto, aceptamos la conexión al servidor y la retransmisión de mensajes a todos los equipos menos a una IP, la que nosotros queramos, en mi caso `172.19.15.52`
 
-<table>
+
+<table text-align="center">
   <tr>
     <th colspan="2">Control de conexión</th>
     <th>Control de acceso</th>
