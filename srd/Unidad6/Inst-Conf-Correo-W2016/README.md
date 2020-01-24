@@ -40,33 +40,31 @@ Ahora vamos a `Propiedades` del `SMTP` y configuramos lo siguiente en el apartad
 
 | Dirección IP | Limitar conexiones | Habilitar registro | Formato de registro activo |
 | :----------: | :----------------: | :----------------: | :------------------------: |
-| 172.19.15.21 | 50                 | SI                 |   Registro Extendido W3C   |
+| 172.19.15.31 | 50                 | SI                 |   Registro Extendido W3C   |
 
-![](./images/.png)
+![](./images/7-general.png)
 
 Después, vamos al apartado **Acceso** y configuramos la autenticación anónima y el envío de mensajes dentro de nuestra red local.
 
-> Para hacer esto, aceptamos la conexión al servidor y la retransmisión de mensajes a todos los equipos menos a una IP, la que nosotros queramos, en mi caso `172.19.15.32`
+> Para hacer esto, aceptamos la conexión al servidor y la retransmisión de mensajes a todos los equipos menos a una IP, la que nosotros queramos, en mi caso `172.19.15.52`
 
 <table>
   <tr>
-    <th rowspan="1">Control de conexión</th>
+    <th colspan="2">Control de conexión</th>
     <th>Control de acceso</th>
   </tr>
   <tr>
-    <th></th>
-    <th></th>
+    <th>Conexión</th>
+    <th>Equipo</th>
+    <th>Autenticación</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Todo excepto la lista que aparece a continuación</td>
+    <td>Un único equipo</td>
+    <td rowspan="2">Acceso anónimo</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td colspan="2">Dirección IP 172.19.15.52</td>
   </tr>
 </table>
 
