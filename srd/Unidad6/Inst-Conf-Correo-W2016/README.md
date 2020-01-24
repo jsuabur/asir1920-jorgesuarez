@@ -13,7 +13,6 @@ En el `Administrador del servidor`, entramos en `Agregar roles y característica
 
 **2º Paso**
 
-
 ![](./images/2-inst-smtp.png)
 
 **3º Paso**
@@ -26,6 +25,7 @@ Seleccionar `Servidor SMTP`.
 ![](./images/4-inst-smtp.png)
 
 **Último paso**
+
 Ejecutar la instalación.
 
 ![](./images/5-instalando.png)
@@ -34,8 +34,12 @@ Ejecutar la instalación.
 
 Ahora configuraremos el `Servidor SMTP`, para ello vamos a `Administrador de Internet Information Services (IIS) 6.0`.
 
+![](./images/6-iis-60.png)
 
+Ahora vamos a `Propiedades` del `SMTP` y configuramos lo siguiente:
 
-![](./images/.png)
+| Dirección IP | Limitar conexiones | Habilitar registro | Formato de registro activo |
+| :----------: | :----------------: | :----------------: | :------------------------: |
+| 172.19.15.21 | 50                 | SI                 |   Registro Extendido W3C   |
 
 ##
