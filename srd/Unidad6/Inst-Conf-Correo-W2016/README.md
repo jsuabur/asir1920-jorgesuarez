@@ -9,7 +9,7 @@ En el `Administrador del servidor`, entramos en `Agregar roles y característica
 
 **1º Paso**
 
-![](./images/1-inst-smtp.png | width=100)
+![](./images/1-inst-smtp.png)
 
 **2º Paso**
 
