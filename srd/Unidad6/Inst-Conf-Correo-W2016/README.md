@@ -50,7 +50,7 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 
 <table text-align="center">
-  <tr>
+  <tr text-align="center">
     <th colspan="2">Control de conexión</th>
     <th>Control de acceso</th>
   </tr>
@@ -65,7 +65,7 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
     <td rowspan="2">Acceso anónimo</td>
   </tr>
   <tr>
-    <td colspan="2">Dirección IP 172.19.15.52</td>
+    <td colspan="2" text-align="center">Dirección IP 172.19.15.52</td>
   </tr>
 </table>
 
