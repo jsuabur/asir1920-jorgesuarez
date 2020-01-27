@@ -100,3 +100,14 @@ Después creamos un dominio tipo alias para disponer de cuentas en otro dominio.
 Ahora vamos a ver si se han creado correctamente las carpetas de correo en `C:\Inetpub\mailroot`:
 
 ![](./images/16-mailroot.png)
+
+## 4. Correos
+
+En el cliente Windows 7, comprobamos mediante `nslookup` el acceso al nuevo nombre DNS creado en el servidor de correo.
+
+![](./images/.png)
+
+Ahora, enviaremos algunos correos hacia las cuentas y comprobamos el envío y carpetas mailroot. Las carpetas tienen distintas funciones que son:
+* Queue -> Mensajes en cola
+* Badmail -> Mensajes para desconocidos
+* Drop -> Mensajes entregados
