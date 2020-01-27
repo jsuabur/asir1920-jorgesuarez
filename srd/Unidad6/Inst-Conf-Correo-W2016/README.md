@@ -77,7 +77,7 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 ## 3. Nuevo dominio SMTP
 
-Antes de nada, comprobamos que existe el dominio predeterminado de ActiveDirectory.
+Antes de nada, comprobamos que existe el dominio predeterminado de Active Directory.
 
 ![](./images/11-AD-predet.png)
 
