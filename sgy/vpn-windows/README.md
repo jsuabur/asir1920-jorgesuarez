@@ -39,6 +39,6 @@ Comprobamos que se puede conectar desde el cliente Windows 10.
 
 ![](./images/vpn-correcto.png)
 
-Para finalizar, comprobamos que tenemos acceso a internet haciendo un `ping 8.8.4.4`
+Para finalizar, comprobamos que tenemos acceso a internet haciendo un `ping 8.8.8.8`
 
 ![](./images/internet.png)
