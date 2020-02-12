@@ -3,16 +3,12 @@
 
 ---
 
-## 1. Configuración Servidor
+## 1. Trape
 
+Descargamos la herramienta `trape` de su repositorio de Github:
 
-
-![](./images/.png)
-
----
-
-## 2. Comprobación Cliente
-
-
+```console
+git clone https://github.com/jofpin/trape.git
+```
 
 ![](./images/.png)
