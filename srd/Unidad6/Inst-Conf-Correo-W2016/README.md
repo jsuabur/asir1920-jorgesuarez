@@ -105,9 +105,11 @@ Ahora vamos a ver si se han creado correctamente las carpetas de correo en `C:\I
 
 En el cliente Windows 7, comprobamos mediante `nslookup` el acceso al nuevo nombre DNS creado en el servidor de correo.
 
-![](./images/.png)
+![](./images/17-nslookup.png)
 
 Ahora, enviaremos algunos correos hacia las cuentas y comprobamos el envío y carpetas mailroot. Las carpetas tienen distintas funciones que son:
 * Queue -> Mensajes en cola
 * Badmail -> Mensajes para desconocidos
 * Drop -> Mensajes entregados
+
+![](./images/18-prueba-anon.png)
