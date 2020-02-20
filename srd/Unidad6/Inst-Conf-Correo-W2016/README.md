@@ -3,7 +3,9 @@
 
 ---
 
-## 1. Instalación - Servidor SMTP
+## 1. Servidor SMTP
+
+### 1.1. Instalación
 
 En el `Administrador del servidor`, entramos en `Agregar roles y características`, una vez ahí seguimos los siguientes pasos:
 
@@ -30,7 +32,7 @@ Ejecutar la instalación.
 
 ![](./images/5-instalando.png)
 
-## 2. Configuración - Servidor SMTP
+### 1.2. Configuración
 
 Ahora configuraremos el `Servidor SMTP`, para ello vamos a `Administrador de Internet Information Services (IIS) 6.0`.
 
@@ -75,7 +77,7 @@ Después, vamos al apartado **Acceso** y configuramos la autenticación anónima
 
 ![](./images/10-acc-anonimo.png)
 
-## 3. Nuevo dominio SMTP
+## 1.3. Nuevo dominio SMTP
 
 Antes de nada, comprobamos que existe el dominio predeterminado de Active Directory.
 
@@ -101,7 +103,7 @@ Ahora vamos a ver si se han creado correctamente las carpetas de correo en `C:\I
 
 ![](./images/16-mailroot.png)
 
-## 4. Correos
+## 1.4. Correos
 
 En el cliente Windows 7, comprobamos mediante `nslookup` el acceso al nuevo nombre DNS creado en el servidor de correo.
 
@@ -113,3 +115,25 @@ Ahora, enviaremos algunos correos hacia las cuentas y comprobamos el envío y ca
 * Drop -> Mensajes entregados
 
 ![](./images/18-prueba-anon.png)
+
+---
+
+# 2. hMailServer
+
+* Antes que nada desinstalamos el servicio `SMTP` de Windows 2016 Server.
+
+![](./images/20-desinst.png)
+
+![](./images/21-eliminando.png)
+
+Ahora descargamos e instalamos en **Windows 2016 Server** el servidor de correo `hMailServer`.
+
+![](./images/23-hmail.png)
+
+![](./images/24-hmail-inst.png)
+
+> Para que funcione correctamente debemos instalar la característica `.NET Framework 3.5`.
+
+![](./images/25-net35.png)
+
+![](./images/26-instalado-hmail.png)
