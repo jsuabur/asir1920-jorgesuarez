@@ -7,16 +7,16 @@
 
 La instalación es tan sencilla como poner el siguiente comando:
 
+```console
+sudo apt install wireguard
+```
+
 > Ubuntu inferior a la version 19.10
 > ```console
 > sudo add-apt-repository ppa:wireguard/wireguard
 > sudo apt update
 > sudo apt install wireguard
 > ```
-
-```console
-sudo apt install wireguard
-```
 
 ## 2. Configuración
 
