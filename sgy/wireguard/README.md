@@ -23,9 +23,11 @@ sudo apt install wireguard
 Tanto en el cliente como en el servidor, configuramos el fichero `wg0.conf` con las respectivas claves.
 
 **Servidor**
+
 ![](./images/3-server-wg0.png)
 
 **Cliente**
+
 ![](./images/4-client-wg0.png)
 
 Iniciamos el `wg-quick@wg0.service`.
@@ -34,13 +36,13 @@ Iniciamos el `wg-quick@wg0.service`.
 
 Descomentamos en el servidor la siguiente línea:
 
-![](./images/6-descomment.png)
+![](./images/6-descoment.png)
 
 ## 3. Comprobación
 
 ![](./images/client-comp.png)
 
-![](./images/.png)
+![](./images/server-comp.png)
 
 ## 4. Código QR
 
