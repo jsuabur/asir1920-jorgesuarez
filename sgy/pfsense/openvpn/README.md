@@ -3,8 +3,6 @@
 
 ---
 
-![](./images/.png)
-
 ## 1. Configuración - Panel de Control PFsense
 
 ### 1.1. Certificate Manager
@@ -51,12 +49,22 @@ Y ahora creamos un cliente en el apartado `Clients`.
 
 ![](./images/13-client.png)
 
-![](./images/.png)
+![](./images/14-user-auth.png)
 
-![](./images/.png)
+![](./images/15-advanced-congf.png)
 
-![](./images/.png)
+![](./images/16-comp-client.png)
 
-![](./images/.png)
+### 1.4. Package Manager
 
-![](./images/.png)
+En el apartado `Available Packages` buscamos el paquete ***openvpn-client-export*** y lo instalamos.
+
+![](./images/17-sstem.png)
+
+---
+
+## 2. Comprobación
+
+Comprobamos con el comando `tracert 8.8.8.8`.
+
+![](./images/18-conecta.png)
