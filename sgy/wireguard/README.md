@@ -7,7 +7,7 @@
 
 La instalación es tan sencilla como poner el siguiente comando:
 
-```bash
+```konsole
 sudo add-apt-repository ppa:wireguard/wireguard
 sudo apt update
 sudo apt install wireguard
