@@ -80,9 +80,23 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 
 ![](./images/17.png)
 
-### 4.2. Comprobación
+### 4.2. Configuración
 
-![](./images/.png)
+![](./images/18.png)
+
+### 4.3. Comprobación
+
+![](./images/19.png)
+
+![](./images/20.png)
+
+![](./images/21.png)
+
+**Comprobando envío a `envpost`**
+
+![](./images/22.png)
+
+![](./images/23.png)
 
 ---
 
@@ -90,9 +104,9 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 
 ### 5.1. Instalación
 
+![](./images/24.png)
 
-
-![](./images/.png)
+![](./images/25.png)
 
 ### 5.2. Comprobación
 
