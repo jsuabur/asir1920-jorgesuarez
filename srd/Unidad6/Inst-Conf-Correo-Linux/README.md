@@ -38,15 +38,25 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 
 ### 2.1. Instalación
 
+![](./images/7-evolution.png)
 
+![](./images/8-evolution-graf.png)
 
-![](./images/.png)
+### 2.2. Configuración
+
+![](./images/9-hosts.png)
+
+![](./images/10-ident.png)
+
+![](./images/11-conf-iden.png)
 
 ### 2.2. Comprobación
 
+![](./images/12-comp-mensajes.png)
 
+![](./images/13-autent.png)
 
-![](./images/.png)
+![](./images/14-mail-recibido.png)
 
 ---
 
@@ -54,15 +64,13 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 
 ### 3.1. Instalación
 
-
-
-![](./images/.png)
+![](./images/15.png)
 
 ### 3.2. Comprobación
 
+![](./images/16.png)
 
-
-![](./images/.png)
+### 3.3. Comprobación web
 
 ---
 
@@ -70,13 +78,9 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 
 ### 4.1. Instalación
 
-
-
-![](./images/.png)
+![](./images/17.png)
 
 ### 4.2. Comprobación
-
-
 
 ![](./images/.png)
 
