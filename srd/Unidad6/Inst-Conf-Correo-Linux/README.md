@@ -70,8 +70,6 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 
 ![](./images/16.png)
 
-### 3.3. Comprobación web
-
 ---
 
 ## 4. Squirrel
@@ -107,11 +105,5 @@ Creamos dos usuarios y enviamos un correo por `telnet` para comprobar el envío 
 ![](./images/24.png)
 
 ![](./images/25.png)
-
-### 5.2. Comprobación
-
-
-
-![](./images/.png)
 
 ---
